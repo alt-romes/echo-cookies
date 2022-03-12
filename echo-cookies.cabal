@@ -32,12 +32,7 @@ executable echo-cookies
     build-depends:
         base ^>=4.15.0.0,
         text,
-        http-conduit ^>=2.3.8,
-        http-types ^>=0.12.3,
-
         warp,
-        wai,
-        wai-extra,
         servant^>=0.18.3,
         servant-server
     hs-source-dirs:   app
